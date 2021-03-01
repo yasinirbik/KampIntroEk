@@ -36,7 +36,7 @@ namespace LinqProject
             {
                 Console.WriteLine(product.ProductName);
             }
-            GetProducts();
+            GetProductsLinq(products);
         }
         static List<Product> GetProductsLinq(List<Product> products)
         {
